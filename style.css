@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  background-color: rgb(255, 237, 251);
+}
+
+.section-center {
+  margin: 1rem;
+}
+
+.btn,
+input {
+  font-family: monospace;
+  text-decoration: none;
+  background-color: rgb(255, 156, 240);
+  border: 1px solid;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 20px;
+}
+
+input {
+  background-color: rgb(255, 255, 255);
+}
+
+label {
+  font-size: larger;
+  font-weight: 700;
+}
+
+.btn:hover {
+  background-color: rgb(255, 187, 245);
+}
+
+.lorem-text {
+  padding-top: 2rem;
+}
